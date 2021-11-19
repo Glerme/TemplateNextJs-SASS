@@ -1,11 +1,8 @@
 import Image from 'next/image';
-import { Typography } from '../Typography';
-
-import { Container } from './styles';
 
 export const Greetings: React.FC = () => (
-  <Container>
-    <Typography as="heading1">NextJS Starter Template!!</Typography>
+  <div>
+    <p className="heading1">NextJS Starter Template!!</p>
 
     <div>
       <Image
@@ -17,8 +14,8 @@ export const Greetings: React.FC = () => (
       />
     </div>
 
-    <Typography as="body2">
+    <p className="body2">
       An NextJS template including Typescript, Styled-components and ESLint.
-    </Typography>
-  </Container>
+    </p>
+  </div>
 );
