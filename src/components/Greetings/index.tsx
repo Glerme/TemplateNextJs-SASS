@@ -1,7 +1,9 @@
 import Image from 'next/image';
 
+import styles from './styles.module.scss';
+
 export const Greetings: React.FC = () => (
-  <div>
+  <div className={styles['container']}>
     <p className="heading1">NextJS Starter Template!!</p>
 
     <div>
