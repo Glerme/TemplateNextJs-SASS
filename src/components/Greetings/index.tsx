@@ -16,8 +16,6 @@ export const Greetings: React.FC = () => (
       />
     </div>
 
-    <p className="body2">
-      An NextJS template including Typescript, Styled-components and ESLint.
-    </p>
+    <p className="body2">An NextJS template including Typescript, SASS.</p>
   </div>
 );
