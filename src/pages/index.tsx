@@ -1,9 +1,9 @@
 import { GetServerSideProps, NextPage } from 'next';
 
-import { Greetings } from '../components/Greetings';
+import { HomeView } from 'views/Home';
 
 const Home: NextPage = () => {
-  return <Greetings />;
+  return <HomeView />;
 };
 
 export default Home;
