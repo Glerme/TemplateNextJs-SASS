@@ -18,6 +18,22 @@ export default class MyDocument extends Document {
 
           <link rel="apple-touch-icon" href="/logo192.png" />
           <link rel="manifest" href="/manifest.json" />
+
+          <meta property="og:url" content="https://localhost:3000/" />
+          <meta property="og:type" content="website" />
+          <meta property="og:title" content="NextJS Start Project" />
+          <meta property="og:description" content="NextJS Start Project" />
+          <meta property="og:image" content="http://localhost:3000/react.png" />
+
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="twitter:domain" content="https://localhost:3000/" />
+          <meta property="twitter:url" content="https://localhost:3000/" />
+          <meta name="twitter:title" content="NextJS Start Project" />
+          <meta name="twitter:description" content="NextJS Start Project" />
+          <meta
+            name="twitter:image"
+            content="https://localhost:3000/react.png"
+          />
         </Head>
         <body>
           <Main />
